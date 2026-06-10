@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="80" viewBox="0 0 344 80" fill="none" role="img" aria-labelledby="title">
+  <title id="title">LocFeedback</title>
+  <defs>
+    <linearGradient id="lf-header-grad" x1="4" y1="4" x2="76" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="72" height="72" rx="18" fill="url(#lf-header-grad)"/>
+  <path d="M20 17V58H37" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 17V58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M41 21H65" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M41 37H50L53 32L57 43L61 37H67" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 47L56 54L69 40" stroke="#22C55E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="51" font-family="Inter, Manrope, Arial, sans-serif" font-size="36" font-weight="760" letter-spacing="0" text-rendering="geometricPrecision">
+    <tspan fill="#172554">Loc</tspan><tspan fill="#2563EB">Feedback</tspan>
+  </text>
+</svg>

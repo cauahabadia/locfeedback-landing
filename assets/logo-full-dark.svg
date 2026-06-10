@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="104" viewBox="0 0 520 104" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">LocFeedback</title>
+  <desc id="desc">Feedbacks claros para locadoras mais inteligentes.</desc>
+  <defs>
+    <linearGradient id="lf-full-dark-grad" x1="4" y1="12" x2="84" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="12" width="80" height="80" rx="20" fill="url(#lf-full-dark-grad)"/>
+  <path d="M22 27V73H41" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 27V73" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M46 32H73" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M46 50H56L60 44L64 57L69 50H76" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M55 61L63 69L78 53" stroke="#22C55E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108" y="52" font-family="Inter, Manrope, Arial, sans-serif" font-size="38" font-weight="760" letter-spacing="0" text-rendering="geometricPrecision">
+    <tspan fill="#FFFFFF">Loc</tspan><tspan fill="#BFDBFE">Feedback</tspan>
+  </text>
+  <text x="109" y="78" font-family="Inter, Manrope, Arial, sans-serif" font-size="16" font-weight="560" letter-spacing="0" fill="#CBD5E1" text-rendering="geometricPrecision">Feedbacks claros para locadoras mais inteligentes.</text>
+</svg>

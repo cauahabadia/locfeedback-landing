@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="610" viewBox="0 0 520 610" fill="none">
+<defs>
+  <linearGradient id="variacao-b-equilibrio-grad" x1="20" y1="20" x2="236" y2="236" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2563EB"/>
+    <stop offset="1" stop-color="#38BDF8"/>
+  </linearGradient>
+  <filter id="variacao-b-equilibrio-shadow" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.13"/>
+  </filter>
+</defs>
+<rect width="520" height="610" fill="#0F172A"/>
+<g filter="url(#variacao-b-equilibrio-shadow)"><g transform="translate(132 58) scale(1)">
+<rect x="20" y="20" width="216" height="216" rx="54" fill="#172554"/>
+<path d="M68 58V182H120" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132 58V182" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+<path d="M132 72H202" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+<path d="M132 120H158L168 104L179 136L192 120H210" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M154 148L176 170L214 128" stroke="#22C55E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+<text x="260" y="388" text-anchor="middle" font-family="Inter, Manrope, Arial, sans-serif" font-size="46" font-weight="760" letter-spacing="0">
+  <tspan fill="#FFFFFF">Loc</tspan><tspan fill="#BFDBFE">Feedback</tspan>
+</text>
+<text x="260" y="432" text-anchor="middle" font-family="Inter, Manrope, Arial, sans-serif" font-size="20" font-weight="500" fill="#CBD5E1">Feedbacks claros para locadoras</text>
+</svg>
