@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="104" viewBox="0 0 520 104" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">LocFeedback</title>
-  <desc id="desc">Feedbacks claros para locadoras mais inteligentes.</desc>
+  <desc id="desc">Feedbacks claros para empresas mais inteligentes.</desc>
   <defs>
     <linearGradient id="lf-full-dark-grad" x1="4" y1="12" x2="84" y2="92" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2563EB"/>
@@ -16,5 +16,5 @@
   <text x="108" y="52" font-family="Inter, Manrope, Arial, sans-serif" font-size="38" font-weight="760" letter-spacing="0" text-rendering="geometricPrecision">
     <tspan fill="#FFFFFF">Loc</tspan><tspan fill="#BFDBFE">Feedback</tspan>
   </text>
-  <text x="109" y="78" font-family="Inter, Manrope, Arial, sans-serif" font-size="16" font-weight="560" letter-spacing="0" fill="#CBD5E1" text-rendering="geometricPrecision">Feedbacks claros para locadoras mais inteligentes.</text>
+  <text x="109" y="78" font-family="Inter, Manrope, Arial, sans-serif" font-size="16" font-weight="560" letter-spacing="0" fill="#CBD5E1" text-rendering="geometricPrecision">Feedbacks claros para empresas mais inteligentes.</text>
 </svg>

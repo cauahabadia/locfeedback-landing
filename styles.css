@@ -751,6 +751,17 @@ p {
   font-weight: 700;
 }
 
+.audience-note {
+  width: 100%;
+  margin-top: 8px;
+  padding: 18px 20px;
+  border: 1px solid rgba(34, 197, 94, 0.32);
+  border-radius: var(--radius);
+  color: var(--white);
+  background: rgba(34, 197, 94, 0.1);
+  font-weight: 750;
+}
+
 .feature-card {
   min-height: 226px;
   padding: 26px;
@@ -824,6 +835,25 @@ p {
   box-shadow: 0 15px 0 -1px var(--white);
 }
 
+.feature-icon.question::before {
+  left: 13px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+}
+
+.feature-icon.question::after {
+  left: 21px;
+  top: 16px;
+  width: 3px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--green);
+  box-shadow: 0 16px 0 -1px var(--green);
+}
+
 .feature-icon.backup::before {
   left: 10px;
   top: 10px;
@@ -880,6 +910,26 @@ p {
   width: 25px;
   height: 2px;
   background: var(--deep-blue);
+}
+
+.feature-icon.brandmark::before {
+  left: 10px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  background: var(--blue);
+}
+
+.feature-icon.brandmark::after {
+  left: 17px;
+  top: 17px;
+  width: 12px;
+  height: 7px;
+  border-left: 3px solid var(--white);
+  border-bottom: 3px solid var(--white);
+  transform: rotate(-45deg);
+  box-shadow: 7px -10px 0 -4px var(--green);
 }
 
 .benefits {
