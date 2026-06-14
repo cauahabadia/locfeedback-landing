@@ -1384,3 +1384,14 @@ p {
     justify-content: center;
   }
 }
+.footer-email {
+    color: #60A5FA;
+    background: rgba(96,165,250,0.12);
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.footer-email:hover {
+    background: rgba(96,165,250,0.20);
+}
