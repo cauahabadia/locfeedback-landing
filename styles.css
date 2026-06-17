@@ -1363,8 +1363,9 @@ p {
   }
 
   .hero-grid {
-    gap: 48px;
-  }
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
 
   .hero-copy {
     padding-top: 0;
