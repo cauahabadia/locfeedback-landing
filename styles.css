@@ -253,7 +253,7 @@ select {
   display: grid;
   grid-template-columns: minmax(0, 740px) minmax(0, 760px);
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 
 .hero-copy {
