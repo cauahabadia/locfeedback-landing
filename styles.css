@@ -232,7 +232,7 @@ select {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 150px 0 78px;
+  padding: 116px 0 78px;
   background:
     radial-gradient(circle at 52% 10%, rgba(37, 99, 235, 0.1), transparent 30rem),
     linear-gradient(180deg, #080a0f 0%, #050608 100%);
@@ -253,12 +253,12 @@ select {
   display: grid;
   grid-template-columns: minmax(0, 740px) minmax(0, 760px);
   align-items: center;
-  gap: 72px;
+  gap: 60px;
 }
 
 .hero-copy {
   min-width: 0;
-  padding-top: 64px;
+  padding-top: 44px;
 }
 
 .eyebrow {
