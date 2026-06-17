@@ -22,7 +22,7 @@
   --shadow-soft: 0 16px 44px rgba(0, 0, 0, 0.24);
   --radius: 14px;
   --radius-lg: 20px;
-  --container: 1180px;
+  --container: 1640px;
 }
 
 * {
@@ -232,7 +232,7 @@ select {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 92px 0 86px;
+  padding: 150px 0 78px;
   background:
     radial-gradient(circle at 52% 10%, rgba(37, 99, 235, 0.1), transparent 30rem),
     linear-gradient(180deg, #080a0f 0%, #050608 100%);
@@ -251,13 +251,14 @@ select {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(520px, 1fr);
+  grid-template-columns: minmax(0, 740px) minmax(0, 760px);
   align-items: center;
-  gap: 56px;
+  gap: 72px;
 }
 
 .hero-copy {
   min-width: 0;
+  padding-top: 64px;
 }
 
 .eyebrow {
@@ -279,7 +280,7 @@ p {
 h1 {
   margin-bottom: 26px;
   color: var(--white);
-  font-size: clamp(2.56rem, 4vw, 4.18rem);
+  font-size: clamp(2.42rem, 3.55vw, 3.78rem);
   line-height: 1;
   letter-spacing: -0.035em;
 }
@@ -344,6 +345,8 @@ p {
 
 .dashboard-mockup {
   position: relative;
+  width: min(100%, 760px);
+  justify-self: start;
   padding: 24px;
   border: 1px solid var(--line-strong);
   border-radius: 22px;
@@ -563,6 +566,12 @@ p {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 16px;
+}
+
+.panel-title span {
+  background: transparent;
+  box-shadow: none;
+  user-select: none;
 }
 
 .panel-title strong {
@@ -1357,8 +1366,14 @@ p {
     gap: 48px;
   }
 
+  .hero-copy {
+    padding-top: 0;
+  }
+
   .dashboard-mockup {
+    width: 100%;
     max-width: 760px;
+    justify-self: stretch;
   }
 
   .cards-grid.four,
