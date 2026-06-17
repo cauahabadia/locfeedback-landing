@@ -31,15 +31,20 @@
 
 html {
   scroll-behavior: smooth;
+  background: #050608;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   color: var(--text);
   background: linear-gradient(180deg, var(--graphite-950) 0%, var(--black) 100%);
+  background-color: #050608;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.6;
   text-rendering: geometricPrecision;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 body.menu-open {
@@ -274,7 +279,7 @@ p {
 h1 {
   margin-bottom: 26px;
   color: var(--white);
-  font-size: clamp(2.85rem, 4.45vw, 4.65rem);
+  font-size: clamp(2.56rem, 4vw, 4.18rem);
   line-height: 1;
   letter-spacing: -0.035em;
 }
@@ -582,17 +587,7 @@ p {
 }
 
 .chart-bars::before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  top: 18px;
-  bottom: 20px;
-  z-index: 2;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg width='640' height='120' viewBox='0 0 640 120' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 86C65 86 82 75 122 74C167 73 184 61 226 62C273 63 288 52 328 52C375 52 391 42 434 42C480 42 495 34 538 34C582 34 598 27 622 27' stroke='%232563EB' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg fill='%238BDC2F' stroke='%230C1018' stroke-width='4'%3E%3Ccircle cx='122' cy='74' r='6'/%3E%3Ccircle cx='226' cy='62' r='6'/%3E%3Ccircle cx='328' cy='52' r='6'/%3E%3Ccircle cx='434' cy='42' r='6'/%3E%3Ccircle cx='538' cy='34' r='6'/%3E%3Ccircle cx='622' cy='27' r='6'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  display: none;
 }
 
 .chart-bars span {
@@ -604,6 +599,35 @@ p {
   border-radius: 12px 12px 4px 4px;
   background: linear-gradient(180deg, rgba(37, 99, 235, 1), rgba(37, 99, 235, 0.34));
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+.chart-line {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 18px;
+  bottom: 20px;
+  z-index: 2;
+  width: calc(100% - 32px);
+  height: calc(100% - 38px);
+  overflow: visible;
+  pointer-events: none;
+}
+
+.chart-line path {
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 3.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.chart-line circle {
+  fill: #8aa3cf;
+  stroke: #0c1018;
+  stroke-width: 4;
+  vector-effect: non-scaling-stroke;
 }
 
 .review-row {
@@ -1388,7 +1412,7 @@ p {
   }
 
   h1 {
-    font-size: clamp(2.28rem, 10.5vw, 3.35rem);
+    font-size: clamp(2.05rem, 9.45vw, 3.02rem);
     line-height: 1;
   }
 

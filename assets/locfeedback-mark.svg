@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LocFeedBack</title>
+  <desc id="desc">Icone LocFeedBack com letras LF e pulso discreto.</desc>
+  <rect width="128" height="128" rx="28" fill="#020617"/>
+  <rect x="10" y="10" width="108" height="108" rx="23" fill="url(#iconBg)"/>
+  <rect x="10.75" y="10.75" width="106.5" height="106.5" rx="22.25" stroke="#2563EB" stroke-opacity=".72" stroke-width="1.5"/>
+  <path d="M34 35V84H58" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 35H91" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M64 35V62H85" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60 76L72 64L81 73L99 51" stroke="#7ED957" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <radialGradient id="iconBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(33 23) rotate(50.3) scale(116 125)">
+      <stop stop-color="#2563EB"/>
+      <stop offset=".42" stop-color="#123A91"/>
+      <stop offset="1" stop-color="#06101F"/>
+    </radialGradient>
+  </defs>
+</svg>

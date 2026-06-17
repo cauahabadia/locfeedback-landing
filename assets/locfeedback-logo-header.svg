@@ -1,0 +1,20 @@
+<svg width="330" height="64" viewBox="0 0 330 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LocFeedBack</title>
+  <desc id="desc">Marca horizontal LocFeedBack para header.</desc>
+  <rect x="4" y="6" width="52" height="52" rx="12" fill="#020617"/>
+  <rect x="8" y="10" width="44" height="44" rx="10" fill="url(#iconBg)"/>
+  <rect x="8.5" y="10.5" width="43" height="43" rx="9.5" stroke="#2563EB" stroke-opacity=".72"/>
+  <path d="M20 21V42H31" stroke="#FFFFFF" stroke-width="4.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 21H46" stroke="#FFFFFF" stroke-width="4.7" stroke-linecap="round"/>
+  <path d="M34 21V33H44" stroke="#FFFFFF" stroke-width="4.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 39L38 33L42 37L50 27" stroke="#7ED957" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="40" fill="#FFFFFF" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="850" letter-spacing="-.6">LocFeed</text>
+  <text x="192" y="40" fill="#1D4ED8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="29" font-weight="850" letter-spacing="-.6">Back</text>
+  <defs>
+    <radialGradient id="iconBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18 14) rotate(50.3) scale(48 52)">
+      <stop stop-color="#2563EB"/>
+      <stop offset=".42" stop-color="#123A91"/>
+      <stop offset="1" stop-color="#06101F"/>
+    </radialGradient>
+  </defs>
+</svg>
